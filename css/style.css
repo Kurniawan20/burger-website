@@ -1,0 +1,183 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+    
+}
+
+header {
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+   
+}
+.container {
+
+    height: 60px;
+    width: 90%;
+    /* background-color: #453F68; */
+    margin: auto;
+    display: flex;
+}
+
+.logo-container, 
+.nav-links{
+    display: flex; 
+}
+
+.logo-container{
+    /* background-color: teal; */
+    flex: 4;
+}
+
+nav{
+    flex:1;
+}
+
+
+.nav-links{
+    list-style-type: none;
+    justify-content: space-around ;
+    /* background-color: tomato; */
+}
+
+.nav-link{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color:white
+}
+
+.text-header{
+    color: white;
+    /* background-color: tomato; */
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    height: 62px;
+    padding-top: 30px;
+}
+.btn {
+    height: 62px;
+    width: 135px;
+    border: none;
+    color: tomato;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btn-orange {
+    color: white;
+    background-color: #FF9900;
+    /* font-size: 20px; */
+    font-weight: bold;
+
+}
+.btn-white {
+    color: #FF9900;
+    background-color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+
+}
+
+.btn-orange:hover{
+    color: #FF9900;
+    background-color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+.btn-orange:hover {
+    color: #FF9900;
+    background-color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+.btn-white:hover { 
+    color: white;
+    background-color: #FF9900;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+.catalog-container {
+    margin-left: auto;
+    margin-right: auto ;
+    /* background-color: teal; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    
+
+}
+
+.catalog {
+    
+    width: 200px;
+    height: 280px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+    position: relative;
+}
+
+.catalog-title{
+   text-align: center; 
+   margin-top: 50px;
+   color: rgb(66, 66, 66);
+   text-decoration: underline;
+   
+}
+
+.food-title {
+    position: absolute;
+    background-color:#FF9900 ;
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 60% ;
+
+}
+
+.maps-container {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(245, 245, 245);
+}
+
+footer {
+    background-color:#FF9900;
+    /* box-shadow: 10px 0px 10px grey; */
+    width: 100%;
+    height: 100px;
+    padding-left: 5px;
+    
+}
+
+
+
